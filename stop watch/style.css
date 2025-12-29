@@ -1,0 +1,80 @@
+body {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    background-color: rgb(214, 162, 99);
+
+}
+
+.main {
+    border: 2.5px solid;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: rgb(243, 211, 169);
+    width:500px;
+}
+
+.heading {
+    font-size: 50px;
+    color: rgb(3, 3, 112);
+    text-align: center;
+    font-family: Helvetica;
+    margin:0px;
+}
+
+.time {
+    font-family: stencil;
+    font-size: 50px;
+    color: rgb(3, 3, 112);
+    text-align: center;
+    margin:50px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.container button {
+    font-size: 25px;
+    width: 100px;
+    border-radius: 25px;
+    
+}
+
+.container .item1{
+    background-color: rgb(70, 240, 70);
+}
+
+.container .item2{
+    background-color: red;
+
+}
+.container .item3{
+    background-color: rgb(255, 251, 0);
+    
+}
+.container .item4{
+    background-color: rgb(132, 0, 255);
+    
+}
+
+#laps{
+    display:flex;
+    flex-direction: column;
+
+}
+
+ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
